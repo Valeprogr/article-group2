@@ -1,9 +1,10 @@
 import "./App.css";
+import images from  "./images/background-img.png"
 
 function App() {
   return (
     <div className="App">
-      <h1>Magic in the Backend</h1>
+      <img src={images}alt="background"/>
     </div>
   );
 }
