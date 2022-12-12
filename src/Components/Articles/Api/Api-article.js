@@ -76,8 +76,8 @@ const ApiArticle = () => {
             </div>
 <div className="list-apis">
 <h2>10 Most Popular used API in (2022)</h2>
-            <p>As I mentioned before APIs are really used a lot.
-                Let 's see the list of the 10 most used of 2002 .
+            <p>As I mentioned before APIs are really used a lot in our everyday life.
+                Let 's see the list of the 10 most used APIs of 2002 .
             </p>
             <ol>
                 <li><a href="https://rapidapi.com/3b-data-3b-data-default/api/skyscanner44/">Skyscanner Flight Search</a></li>
