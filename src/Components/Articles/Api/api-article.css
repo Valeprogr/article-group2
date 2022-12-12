@@ -20,9 +20,23 @@
 }
 
 .text-video-player {
+  padding: 50px;
   height: auto;
   width: auto;
   margin: 10px;
+}
+
+.footer-article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ font-size: 16px;
+ margin-top: 32px;
+ 
+}
+.footer-article,p{
+  margin: 0%;
+  padding: 0%;
 }
 
 @media screen and (max-width: 600px) {
@@ -34,17 +48,21 @@
     margin: 5px;
   }
   img {
-    height: 300px;
+    height: 200px;
     width: auto;
   }
   .video-player {
-    height: 500px;
+    height: 600px;
     width: auto;
-    margin: 20px;
+    margin: 10px;
+    font-size: 22px;
   }
   .list-apis {
     width: auto;
     height: auto;
     margin-top: 150px;
+  }
+  .footer-article{
+    margin-top: 22px;
   }
 }
