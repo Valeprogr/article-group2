@@ -55,9 +55,9 @@ const ApiArticle = () => {
             </p>
 
             <h2> What is an API endpoint and why is it important?</h2>
-            <p>When an API interacts with another system, the touchpoints of this communication are considered endpoints. For APIs, an endpoint can include a URL of a server or service. <br/>
-             Each endpoint is the location from which APIs can access the resources they need to carry out their function. APIs work using 'requests' and 'responses.'
-            <br/>When an API requests information from a web application or web server, it will receive a response. The place that APIs send requests and where the resource lives, is called an endpoint.<br/>
+            <p>When an API interacts with another system, the touchpoints of this communication are considered endpoints. For APIs, an endpoint can include a URL of a server or service. <br />
+                Each endpoint is the location from which APIs can access the resources they need to carry out their function. APIs work using 'requests' and 'responses.'
+                <br />When an API requests information from a web application or web server, it will receive a response. The place that APIs send requests and where the resource lives, is called an endpoint.<br />
 
                 API endpoints are really important for two main reasons: </p>
             <ol>
@@ -66,34 +66,38 @@ const ApiArticle = () => {
             </ol>
 
 
-           
+
             <div className=" video-player text-center">
-            
+
                 <ReactPlayer url="https://www.youtube.com/watch?v=GZvSYJDk-us&t=155s" />
                 <div className="text-video-player">
-                <h5>If you want know more about Api I really recommend this accurate YouTube video from FreeCodeCamp.</h5>
-                <p><em>Source FreeCodeCamp</em></p></div>
+                    <h5>If you want know more about Api I really recommend this accurate YouTube video from FreeCodeCamp.</h5>
+                    <p><em>Source FreeCodeCamp</em></p></div>
             </div>
-<div className="list-apis">
-<h2>10 Most Popular used API in (2022)</h2>
-            <p>As I mentioned before APIs are really used a lot.
-                Let 's see the list of the 10 most used of 2002 .
-            </p>
-            <ol>
-                <li><a href="https://rapidapi.com/3b-data-3b-data-default/api/skyscanner44/">Skyscanner Flight Search</a></li>
-                <li><a href="https://rapidapi.com/collection/top-weather-apis">Open Weather Map </a></li>
-                <li><a href="https://rapidapi.com/api-sports/api/api-football">API-FOOTBALL</a></li>
-                <li><a href="https://rapidapi.com/thecocktaildb/api/the-cocktail-db">The Cocktail DB </a></li>
-                <li><a href="https://rapidapi.com/apilayernet/api/rest-countries-v1">REST Countries v1 </a></li>
-                <li><a href="https://rapidapi.com/collection/stock-market-apis">Yahoo Finance</a></li>
-                <li><a href="https://rapidapi.com/ajith/api/love-calculator">Love Calculator </a></li>
-                <li><a href="https://rapidapi.com/BigLobster/api/url-shortener-service">URL Shortener Service </a></li>
-                <li><a href="https://rapidapi.com/search/space">NasaAPI</a></li>
-                <li><a href="https://rapidapi.com/divad12/api/numbers-1">Numbers </a></li>
-            </ol>
+            <div className="list-apis">
+                <h2>10 Most Popular used API in (2022)</h2>
+                <p>As I mentioned before APIs are really used a lot in our everyday life.
+                    Let 's see the list of the 10 most used APIs of 2002 .
+                </p>
+                <ol>
+                    <li><a href="https://rapidapi.com/3b-data-3b-data-default/api/skyscanner44/">Skyscanner Flight Search</a></li>
+                    <li><a href="https://rapidapi.com/collection/top-weather-apis">Open Weather Map </a></li>
+                    <li><a href="https://rapidapi.com/api-sports/api/api-football">API-FOOTBALL</a></li>
+                    <li><a href="https://rapidapi.com/thecocktaildb/api/the-cocktail-db">The Cocktail DB </a></li>
+                    <li><a href="https://rapidapi.com/apilayernet/api/rest-countries-v1">REST Countries v1 </a></li>
+                    <li><a href="https://rapidapi.com/collection/stock-market-apis">Yahoo Finance</a></li>
+                    <li><a href="https://rapidapi.com/ajith/api/love-calculator">Love Calculator </a></li>
+                    <li><a href="https://rapidapi.com/BigLobster/api/url-shortener-service">URL Shortener Service </a></li>
+                    <li><a href="https://rapidapi.com/search/space">NasaAPI</a></li>
+                    <li><a href="https://rapidapi.com/divad12/api/numbers-1">Numbers </a></li>
+                </ol>
 
-</div>
-           
+            </div>
+            <div className="footer-article text-center">
+                <p>Well for today is all, Happy Coding! </p>
+                <p>Written by <em><a href="https://github.com/Valeprogr">Vale</a></em></p>
+            </div>
+
         </div>
     );
 }
